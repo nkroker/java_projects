@@ -7,20 +7,28 @@ package inheritance;
 
 /**
  *
- * @author Nikhil
+ * @author HP
  */
-public class Inheritance extends Second {
+public class Inheritance {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        Inheritance obj = new Inheritance();
-        
-        int c = obj.get();
-        System.out.println("Your answer is: "+c);
-        
+      A superOb=  new A();
+        B subOb=new B();
+                superOb.i=10;
+                superOb.j=20;
+                System.out.println("contents of superob");
+                subOb.i=10;
+                subOb.j=8;
+                subOb.k=9;
+               System.out.println("cobntents of ");
+               subOb.showij();
+               subOb.k();
+              System.out.println();
+              System.out.println("sum of  i,j nd k in subob");
+              subOb.sum();
     }
     
 }
