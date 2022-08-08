@@ -61,7 +61,7 @@ public class KnapSack {
 	    System.out.println("\n");
 	}
 	
-	}
+    }
     
     
     
